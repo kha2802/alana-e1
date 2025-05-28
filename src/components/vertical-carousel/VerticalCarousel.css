@@ -1,0 +1,17 @@
+  
+  .vertical-carousel-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .vertical-carousel-container .vertical-carousel {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+  }
+  
+  .vertical-carousel-container .vertical-carousel-item {
+    min-height: 100vh;
+  }

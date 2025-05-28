@@ -1,0 +1,79 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// enum
+enum ArticlesStatus {
+  draft
+  published
+  archived
+}
+
+model Setting {
+  id    String @id
+  value String
+}
+
+model DeviceTokens {
+  Id          Int      @id @default(autoincrement())
+  UserId      String
+  App         String
+  DeviceId    String
+  Token       String
+  IsActive    Boolean
+  CreatedDate DateTime
+}
+
+model Categories {
+  id          Int        @id @default(autoincrement())
+  name        String     @db.VarChar(255)
+  description String
+  Articles    Articles[]
+}
+
+model Users {
+  id       Int        @id @default(autoincrement())
+  userName String     @db.VarChar(100)
+  fullName String     @db.VarChar(500)
+  email    String     @db.VarChar(200)
+  password String
+  role     String     @db.VarChar(255)
+  Articles Articles[]
+}
+
+model Articles {
+  id            Int            @id @default(autoincrement())
+  title         String         @db.VarChar(255)
+  content       String
+  summary       String
+  publishedDate DateTime
+  views         Int
+  avatar        String
+  status        ArticlesStatus @default(draft)
+  //forgekey
+  category      Categories     @relation(fields: [categoryId], references: [id])
+  categoryId    Int
+
+  user     Users      @relation(fields: [authorId], references: [id])
+  authorId Int
+  comment  Comments[]
+}
+
+model Comments {
+  id          Int      @id @default(autoincrement())
+  article     Articles @relation(fields: [articleId], references: [id])
+  articleId   Int
+  userId      String
+  content     String
+  commentDate DateTime
+}
+
+model Tags {
+  id   String @id @db.VarChar(255)
+  name String
+}

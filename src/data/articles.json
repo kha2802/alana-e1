@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "Tin tức đầu tiên",
+    "summary": "Đây là đoạn tóm tắt tin tức đầu tiên.",
+    "content": "<p>Nội dung chi tiết bài viết đầu tiên.</p>"
+  },
+  {
+    "id": "2",
+    "title": "Tin tức thứ hai",
+    "summary": "Tóm tắt ngắn cho bài thứ hai.",
+    "content": "<p>Nội dung chi tiết bài viết thứ hai.</p>"
+  }
+]

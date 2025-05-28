@@ -1,0 +1,46 @@
+/* Carousel.css */
+.carousel-container {
+  position: relative;
+  width: calc(100% - 100px);
+  margin: auto;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+.carousel__slide-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel__slide {
+  min-width: 100%;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.carousel__slide img {
+  width: 100%;
+  display: block;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #91473a;
+  border: none;
+  padding: 10px;
+  font-weight: 100;
+  font-size: 5rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.carousel__button--left {
+  left: -50px; /* Nút nằm ngoài bên trái */
+}
+
+.carousel__button--right {
+  right: -50px; /* Nút nằm ngoài bên phải */
+}

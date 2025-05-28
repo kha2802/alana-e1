@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #4c5666;
+  background: #ffffff;
+}
+
+.loading-hidden {
+  display: none !important;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.list-red li::marker {
+  color: #91473a;
+}
+@keyframes trin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  20%,
+  32%,
+  44%,
+  56%,
+  68% {
+    transform: rotate(0deg);
+  }
+  23%,
+  35%,
+  47%,
+  59%,
+  71% {
+    transform: rotate(15deg);
+  }
+  26%,
+  38%,
+  50%,
+  62%,
+  74% {
+    transform: rotate(0deg);
+  }
+  29%,
+  41%,
+  53%,
+  65%,
+  77% {
+    transform: rotate(-15deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+}
+/* animation đẩy dưới lên */
+@keyframes dataFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes dataFadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+@keyframes dataFadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
+@keyframes dataFadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+
+@keyframes dataLoadingLogo {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dataHidden {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes dataShow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in-section.visible .text-fade-up {
+  animation: dataFadeUp 0.7s forwards 0.2s;
+}
+
+.fade-in-section.visible .text-fade-down {
+  animation: dataFadeDown 0.7s forwards 0.2s;
+}
+
+.fade-in-section.visible .text-fade-left {
+  animation: dataFadeLeft 0.7s forwards 0.2s;
+}
+
+.fade-in-section.visible .text-fade-right {
+  animation: dataFadeRight 0.7s forwards 0.2s;
+}
+
+.fade-in-section.visible .loading-logo {
+  animation: dataLoadingLogo 2s linear infinite;
+}
+
+.fade-in-section.hidden .text-animation-hidden {
+  animation: dataHidden 0.7s both 0.2s;
+}
+
+.fade-in-section.visible .text-animation-show {
+  animation: dataShow 1s both 1s;
+}
+.pulse {
+  animation-name: trin;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* menu top  */
+.menu-top {
+  position: relative;
+  color: #e3e3e3;
+}
+
+.menu-top.active {
+  color: #ffff;
+}
+
+.menu-top::before,
+.menu-top.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  border-bottom: 2px solid #e2ac8a;
+  transition: width 0.5s ease;
+}
+
+.menu-top.active::before {
+  width: 60%;
+}
+
+.menu-top::before {
+  width: 0;
+}
+
+.menu-top:hover {
+  color: #ffff;
+}
+
+.menu-top:hover::before {
+  width: 60%;
+}
+
+@media screen and (max-width: 992px) {
+  .menu-top.active::before,
+  .menu-top::before {
+    left: 12px;
+  }
+}
+
+.bgParallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16rem;
+}
+
+.bgUti01 {
+  background-image: url(/images/pages/tien-ich/bg-book.png);
+}
+
+.bgUti02 {
+  background-image: url(/images/pages/tien-ich/bg-education.png);
+}
+
+.bgUti03 {
+  background-image: url(/images/pages/tien-ich/bg-house.png);
+}
+
+@media screen and (max-width: 640px) {
+  .bgParallax {
+    background: none;
+    height: 2rem;
+  }
+  .img-sm-scal-2 {
+    scale: 2;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,25 @@
+/*                                CSS Loading Page                */
+.loading-page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 9000;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(2px);
+  }
+  
+  .loading-page .lds-spinner {
+    color: official;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 40%;
+  }
+  
