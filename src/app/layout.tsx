@@ -39,14 +39,14 @@ export default function RootLayout({
     <html lang="vi">
       <head>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="DỰ ÁN ALANA CITY BẤT ĐỘNG SẢN BÌNH DƯƠNG [CHỦ ĐẦU TƯ]" />
-        <meta property="og:description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư 8/2024 ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!" />
+        <meta property="og:title" content="KHU ĐÔ THỊ ALANA CITY - BẤT ĐỘNG SẢN BÌNH DƯƠNG [CHỦ ĐẦU TƯ]" />
+        <meta property="og:description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!" />
         <meta property="og:image" content="https://alanacity.vn/images/logos/logo.png" />
         <meta property="og:image:alt" content="Alana City" />
         <meta property="og:site_name" content="Alana City" />
-        <meta property="og:url" content="https://alanacity.vn/" />
+        <meta property="og:url" content="https://alana-city.vn/" />
         <meta property="og:type" content="website" />
-        <meta name="description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư 12/2024 ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!
+        <meta name="description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!
 "></meta>
         <meta name="robots" content="all" />
         <link rel="shortcut icon" href="./favicon.ico" type="image/ico" />
