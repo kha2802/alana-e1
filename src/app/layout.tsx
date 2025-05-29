@@ -39,12 +39,12 @@ export default function RootLayout({
     <html lang="vi">
       <head>
         <meta charSet="UTF-8" />
-        <meta property="og:title" content="KHU ĐÔ THỊ ALANA CITY - BẤT ĐỘNG SẢN BÌNH DƯƠNG [CHỦ ĐẦU TƯ]" />
+        <meta property="og:title" content="KHU ĐÔ THỊ ALANA CITY - BẤT ĐỘNG SẢN BÌNH DƯƠNG " />
         <meta property="og:description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!" />
         <meta property="og:image" content="https://alanacity.vn/images/logos/logo.png" />
         <meta property="og:image:alt" content="Alana City" />
         <meta property="og:site_name" content="Alana City" />
-        <meta property="og:url" content="https://alana-city.vn/" />
+        <meta property="og:url" content="https://alanacity.vn/" />
         <meta property="og:type" content="website" />
         <meta name="description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!
 "></meta>
