@@ -24,7 +24,7 @@ const Footer = () => {
         }
 
         try {
-            const response = await fetch("https://formspree.io/f/xnndkeja", {
+            const response = await fetch("https://formspree.io/f/mpwdvbnv", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
