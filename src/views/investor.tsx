@@ -10,8 +10,8 @@ const Investor = () => {
             <img className="mt-4 w-full mx-auto max-w-[300px] px-14 md:px-6" src="/images/pages/Logo-PTA.png" alt="Phương Trường An Group" />
           </div>
           <div className="col-span-12 md:col-span-6 text-center">
-            <h4 className="text-[#91473a] text-2xl mt-8 md:mt-0">ĐƠN VỊ PHÁT TRIỂN</h4>
-            <img className="mt-4 w-full mx-auto max-w-[300px] px-14 md:px-6" src="/images/pages/Logo-HHTA.png" alt="Phương Trường An" />
+            <h4 className="text-[#91473a] text-2xl mt-8 md:mt-0">ĐƠN VỊ PHÂN PHỐI CHÍNH THỨC</h4>
+            <img className="mt-4 w-full mx-auto max-w-[310px] px-14 md:px-6" src="/images/pages/Logo%20Maxreal.png" alt="Maxreal" />
           </div>
         </div>
         <hr className="h-0.5 my-8 mx-10 border-0 bg-[#e2ac8a]" />

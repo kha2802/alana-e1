@@ -14,28 +14,26 @@ const LienHe = () => {
     return (
         <div className="bg-white">
             <div className="max-w-screen-xl mx-auto grid grid-cols-12 mt-24">
-                <h3 className={`col-span-12 text-4xl md:text-5xl mb-4 p-4 text-[rgb(31,44,59)]  text-center md:text-left ${th_leky.className}`}>Chủ Đầu Tư</h3>
-                <div className="col-span-12 md:col-span-3 content-center items-center">
-                    <img className="w-full p-10" src="/images/pages/Logo-PTA.png" alt="Phương Trường An Group" />
+                <h3 className={`col-span-12 text-4xl md:text-5xl mb-5 p-4 text-[rgb(31,44,59)]  text-center  ${th_leky.className}`}>Đơn vị phân phối chính thức</h3>
+                <div className="col-span-12 md:col-span-3 flex justify-center items-center">
+                    <img
+                        className="w-full max-w-[300px] object-contain"
+                        src="/images/pages/Logo%20Maxreal.png"
+                        alt="Maxreal"
+                    />
                 </div>
-                <div className="col-span-12 md:col-span-9 px-10 md:px-2">
-                    <p className="">
-                        Thương hiệu Phương Trường An ra đời vào giai đoạn thị trường bất động sản diễn ra sôi động, sở hữu đội ngũ nhân sự trẻ, giàu chuyên
-                        môn và đầy nhiệt huyết, những lợi thế đó đã đưa Công ty Phương Trường An nhanh chóng ghi dấu ấn trong lòng đông đảo khách hàng trên
-                        thị trường bất động sản Bình Dương.
+                <div className="col-span-12 md:col-span-9 flex flex-col justify-center px-6 md:px-12">
+                    <p className="mb-4">
+                        Công Ty Cổ Phần Bất Động Sản Maxreal là chủ đầu tư, nhà phát triển và đơn vị phân phối các sản phẩm đất nền sổ đỏ uy tín tại khu vực Bình Dương và các khu vực lân cận.
                     </p>
-                    <p >
-                        Trải qua quá trình hình thành và phát triển, Phương Trường An với mục tiêu hướng đến sự phát triển lâu dài và bền vững, Phương Trường An
-                        cam kết luôn đặt chất lượng lên hàng đầu, mong muốn đem lại sự tin tưởng, hài lòng dành cho đối tác và khách hàng.
+                    <p className="mb-4">
+                        Maxreal tự hào là một trong những công ty bất động sản được chính khách hàng tin tưởng và bình chọn. Với hơn 10 năm kinh nghiệm dày dặn trên thị trường bất động sản Đồng Nai, Bình Dương,...
                     </p>
-                    <p>
-                        Không chỉ dừng lại ở phạm vi nhà phát triển thị trường BĐS tại Bình Dương. Mục tiêu của Phương Trường An là trở thành doanh nghiệp uy
-                        tin hàng đầu Việt Nam, đa lĩnh vực từ Nhà Đất đến Du Lịch, Giáo dục. Góp phần đẩy mạnh vị thế thương hiệu của Phương Trường An nói
-                        riêng và sự phát triển của Việt Nam nói chung.
+                    <p className="mb-4">
+                        Maxreal luôn nỗ lực không ngừng để mang đến những sản phẩm chất lượng cao cùng dịch vụ hoàn hảo nhất cho khách hàng.
                     </p>
                     <p>
-                        Chúng tôi sẽ luôn lắng nghe và không ngừng cải tiến, nhằm mang đến những sản phẩm, dịch vụ đáp ứng nhu cầu khách hàng, góp phần
-                        xây dựng cuộc sống thịnh vượng và đóng góp vào sự phát triển bền vững của xã hội.
+                        Gia tăng giá trị bất động sản thông qua dịch vụ chuyên nghiệp và tận tâm là động lực phát triển bền vững của Maxreal – một trong những nhà đầu tư tiên phong hàng đầu trong lĩnh vực bất động sản miền Nam.
                     </p>
                 </div>
                 <div className="col-span-12 ">
