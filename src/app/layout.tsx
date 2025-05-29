@@ -8,27 +8,25 @@ import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
 import Script from "next/script";
 
-export const metadata: Metadata = {
-  title: "Alana City – Bản Giao Hưởng Mặt Trời",
-  description: `bất động sản phú giáo,
-bất động sản bình dương,
-dự án phú giáo,
-dự án bình dương,
-bán đất nền bình dương,
-BĐS Phú Giáo,
-BĐS Bình Dương,
-bản giao hưởng mặt trời,
-alanacity,
-alana,
-alana city,
-Đất nền Bình Dương,
-Đất nền Phú Giáo,
-bất động sản khu công nghiệp,
-bất động sản kcn,
-BDS khu công nghiệp,
-Phương trường an group,
-Dự án phương trường an`
-};
+export const metadata = {
+  title: 'Alana City – Bản Giao Hưởng Mặt Trời',
+  description: 'Mở bán đất nền Alana City chính thức...',
+  openGraph: {
+    title: 'Alana City – Bản Giao Hưởng Mặt Trời',
+    description: 'Mở bán đất nền Alana City chính thức...',
+    url: 'https://www.alana-city.vn/',
+    images: ['https://www.alana-city.vn/images/logos/logo.png'],
+    siteName: 'Alana City',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Alana City – Bản Giao Hưởng Mặt Trời',
+    description: 'Mở bán đất nền Alana City chính thức...',
+    images: ['https://www.alana-city.vn/images/logos/logo.png'],
+  },
+}
+
 
 export default function RootLayout({
   children,
@@ -41,10 +39,10 @@ export default function RootLayout({
         <meta charSet="UTF-8" />
         <meta property="og:title" content="KHU ĐÔ THỊ ALANA CITY - BẤT ĐỘNG SẢN BÌNH DƯƠNG " />
         <meta property="og:description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!" />
-        <meta property="og:image" content="https://alanacity.vn/images/logos/logo.png" />
+        <meta property="og:image" content="https://alana-city.vn/images/logos/logo.png" />
         <meta property="og:image:alt" content="Alana City" />
         <meta property="og:site_name" content="Alana City" />
-        <meta property="og:url" content="https://alanacity.vn/" />
+        <meta property="og:url" content="https://alana-city.vn/" />
         <meta property="og:type" content="website" />
         <meta name="description" content="Mở bán đất nền Alana City chính thức - Chính sách Ưu Đãi &amp; Giá bán Alana City TRỰC TIẾP chủ đầu tư ⭐ Giỏ hàng nội bộ cho VIP. Click ngay!!!
 "></meta>
