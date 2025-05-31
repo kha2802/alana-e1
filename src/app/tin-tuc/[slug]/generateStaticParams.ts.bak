@@ -1,0 +1,7 @@
+import { newsData } from "@/data/newsData";
+
+export async function generateStaticParams() {
+  return newsData.map((item) => ({
+    slug: item.slug,
+  }));
+}

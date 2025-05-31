@@ -1,6 +1,5 @@
 "use client"
 import { useEffect, useState } from 'react';
-import 'react-quill/dist/quill.snow.css';
 import IArticle from '@/interfaces/model/IArticle';
 import {  SuccessResponse } from "@/interfaces/IResponse";
 import { toast } from 'react-toastify';

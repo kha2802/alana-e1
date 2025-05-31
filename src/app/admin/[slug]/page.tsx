@@ -1,6 +1,5 @@
 "use client"
 import { useEffect, useState } from 'react';
-import 'react-quill/dist/quill.snow.css';
 import dynamic from 'next/dynamic';
 import { title } from 'process';
 import IArticle, { InitalDataArticle } from '@/interfaces/model/IArticle';

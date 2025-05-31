@@ -48,7 +48,7 @@ const MenuTop = () => {
                                 <Link href="/thu-vien" className={`${router == "/thu-vien" ? "active" : ""} block py-2 px-3 rounded menu-top`}>Thư viện</Link>
                             </li>
                             <li>
-                                <Link href="/tin-tuc/-1" className={`${router.includes('tin-tuc') ? "active" : ""} block py-2 px-3 rounded menu-top`}>Tin tức</Link>
+                                <Link href="/tin-tuc/" className={`${router.includes('tin-tuc') ? "active" : ""} block py-2 px-3 rounded menu-top`}>Tin tức</Link>
                             </li>
                             <li>
                                 <Link href="/lien-he" className={`${router == "/lien-he" ? "active" : ""} block py-2 px-3 rounded menu-top`}>Liên hệ</Link>

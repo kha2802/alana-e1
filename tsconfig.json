@@ -33,7 +33,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "src/app/tin-tuc/[slug]/generateStaticParams.ts.bak"  ],
   "exclude": [
     "node_modules"
   ]
