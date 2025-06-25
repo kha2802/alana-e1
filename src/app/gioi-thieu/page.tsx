@@ -7,7 +7,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: 'Giới thiệu dự án - dự án Phương Trường An',
-    description: 'dự án phú giáo, bất động sản phú giáo, mua. nhà phú giáo, đất nền phú giáo,bđs phú giao, nhà đất bình dương, mua nhà bình dương',
+    description: 'dự án phú giáo, bất động sản phú giáo, mua nhà phú giáo, đất nền phú giáo, bđs phú giao, nhà đất Thành Phố Hồ Chí Minh, mua nhà Thành Phố Hồ Chí Minh',
 }
 
 const GioiThieu = () => {

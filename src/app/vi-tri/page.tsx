@@ -7,7 +7,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
     title: 'Vị trí - khu dô thị Alana city',
-    description: 'địa chỉ khu đô thị,vị trí alana, bản giao mặt trời, dự án phú giáo, bất động sản phú giáo, mua. nhà phú giáo, đất nền phú giáo,bđs phú giao, nhà đất bình dương, mua nhà bình dương',
+    description: 'địa chỉ khu đô thị,vị trí alana, bản giao mặt trời, dự án phú giáo, bất động sản phú giáo, mua. nhà phú giáo, đất nền phú giáo,bđs phú giao, nhà đất Thành Phố Hồ Chí Minh, mua nhà Thành Phố Hồ Chí Minh',
 }
 const ViTri = () => {
     return (
@@ -36,8 +36,8 @@ const ViTri = () => {
                                 <p className="">
                                     Phú Giáo là &quot;vùng lõi&quot; phát triển quan trọng khi đóng vai trò
                                     kết nối chiến lược giữa toàn bộ các đô thị công nghiệp phía
-                                    Bắc tỉnh Bình Dương gồm Bến Cát, Tân Uyên, thành phố
-                                    mới Bình Dương. Đặc biệt, Alana City được bao quanh bởi
+                                    Bắc Thành Phố Hồ Chí Minh gồm Bến Cát, Tân Uyên, thành phố
+                                    mới. Đặc biệt, Alana City được bao quanh bởi
                                     khu công nghiệp Tân Bình 1.000ha và nhiều khu công
                                     nghiệp lớn như VSIP 2 mở rộng 1.700ha, VSIP 3 hơn 1.000ha,
                                     VSIP 4, Tam Lập... Các khu công nghiệp này đang thu hút
@@ -82,7 +82,7 @@ const ViTri = () => {
                             <ul className="text-left text-sm mt-4 leading-6 list-disc text-black px-10 pl-14 md:px-4">
                                 <li>QL13, QL14, HL 612</li>
                                 <li>Đường tạo lực Bắc Tân Uyên - Phú Giáo - Đồng Phú</li>
-                                <li>Đường cao tốc Bình Dương - Đồng Phú</li>
+                                <li>Đường cao tốc Thành Phố Hồ Chí Minh - Đồng Phú</li>
                                 <li>Vành đai 3, đại lộ Mỹ Phước - Tân Vạn - Phú Giáo, và nhiều
                                     tuyến đường khác.</li>
                             </ul>
@@ -92,7 +92,7 @@ const ViTri = () => {
                                 chuyển. Khoảng cách lý tưởng mang đến sự thuận tiện cho
                                 cư dân, giúp dự án trở thành đô thị vệ tinh xứng tầm, mở ra
                                 cơ hội phát triển công nghiệp, thương mại - dịch vụ thuận
-                                lợi trong khu vực Bắc Bình Dương và miền Đông Nam Bộ.
+                                lợi trong khu vực Bắc Thành Phố Hồ Chí Minh và miền Đông Nam Bộ.
                             </p>
                         </div>
                         <div className="col-span-12 md:col-span-8">

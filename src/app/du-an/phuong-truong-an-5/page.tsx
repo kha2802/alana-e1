@@ -17,7 +17,7 @@ const PhuongTruongAnFive = () => {
                         <div className="col-span-12 md:col-span-9 text-sm">Khu Đô Thị Phương Trường An 5 Green City</div>
 
                         <div className="col-span-12 md:col-span-3 font-bold">Vị trí:</div>
-                        <div className="col-span-12 md:col-span-9 text-sm">DT741, Bố Lá, Phước Hòa, Phú Giáo, Bình Dương</div>
+                        <div className="col-span-12 md:col-span-9 text-sm">DT741, Bố Lá, Phước Hòa, Phú Giáo, Thành Phố Hồ Chí Minh</div>
 
                         <div className="col-span-12 md:col-span-3 font-bold">Chủ Đầu Tư:</div>
                         <div className="col-span-12 md:col-span-9 text-sm">Công Ty Bất Động Sản Phương Trường An</div>
@@ -49,7 +49,7 @@ const PhuongTruongAnFive = () => {
                 <h2 className={`text-4xl text-[#142237] mt-10 ${th_leky.className}`}>Vị trí</h2>
                 <p className="my-10">
                     Dự Án Khu Đô Thị Phương Trường An 5 Green City toạ lạc tại vị trí đắc địa trên tuyến đường DT741, tuyến đường huyết mạch đi các tỉnh
-                    Tây Nguyên, vị trí tâm điểm định hướng phát triển toàn diện về giáo dục, thương mại dịch vụ, công nghiệp của tỉnh Bình Dương. Bao
+                    Tây Nguyên, vị trí tâm điểm định hướng phát triển toàn diện về giáo dục, thương mại dịch vụ, công nghiệp của tỉnh Thành Phố Hồ Chí Minh. Bao
                     bọc các Khu Công Nghiệp Vsip II, Vsip III, Vsip IV, KCN Đồng An, KCN Tân Bình, KCN Nam Tân Uyên.
                 </p>
                 <p>

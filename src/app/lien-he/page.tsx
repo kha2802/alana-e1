@@ -24,10 +24,10 @@ const LienHe = () => {
                 </div>
                 <div className="col-span-12 md:col-span-9 flex flex-col justify-center px-6 md:px-12">
                     <p className="mb-4">
-                        Công Ty Cổ Phần Bất Động Sản Maxreal là chủ đầu tư, nhà phát triển và đơn vị phân phối các sản phẩm đất nền sổ đỏ uy tín tại khu vực Bình Dương và các khu vực lân cận.
+                        Công Ty Cổ Phần Bất Động Sản Maxreal là chủ đầu tư, nhà phát triển và đơn vị phân phối các sản phẩm đất nền sổ đỏ uy tín tại khu vực Thành Phố Hồ Chí Minh và các khu vực lân cận.
                     </p>
                     <p className="mb-4">
-                        Maxreal tự hào là một trong những công ty bất động sản được chính khách hàng tin tưởng và bình chọn. Với hơn 10 năm kinh nghiệm dày dặn trên thị trường bất động sản Đồng Nai, Bình Dương,...
+                        Maxreal tự hào là một trong những công ty bất động sản được chính khách hàng tin tưởng và bình chọn. Với hơn 10 năm kinh nghiệm dày dặn trên thị trường bất động sản Đồng Nai, Thành Phố Hồ Chí Minh,...
                     </p>
                     <p className="mb-4">
                         Maxreal luôn nỗ lực không ngừng để mang đến những sản phẩm chất lượng cao cùng dịch vụ hoàn hảo nhất cho khách hàng.

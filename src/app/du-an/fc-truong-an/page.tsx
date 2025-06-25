@@ -18,7 +18,7 @@ const FCTruongAn = () => {
                         <div className="col-span-12 md:col-span-9 text-sm">Khu Đô Thị FC Trường Anh</div>
 
                         <div className="col-span-12 md:col-span-3 font-bold">Vị trí:</div>
-                        <div className="col-span-12 md:col-span-9 text-sm">DT741, Phước Vĩnh, Phú Giáo, Bình Dương</div>
+                        <div className="col-span-12 md:col-span-9 text-sm">DT741, Phước Vĩnh, Phú Giáo, Thành Phố Hồ Chí Minh</div>
 
                         <div className="col-span-12 md:col-span-3 font-bold">Chủ Đầu Tư:</div>
                         <div className="col-span-12 md:col-span-9 text-sm">Công Ty Bất Động Sản Phương Trường An</div>
@@ -50,7 +50,7 @@ const FCTruongAn = () => {
 
                 <h2 className={`text-4xl text-[#142237] mt-10 ${th_leky.className}`}>Vị trí</h2>
                 <p className="my-10">
-                    Dự án khu nhà ở FC Trường An nằm tại mặt tiền đường DT741, thị trấn Phước Vĩnh, huyện Phú Giáo, tỉnh Bình Dương.
+                    Dự án khu nhà ở FC Trường An nằm tại mặt tiền đường DT741, thị trấn Phước Vĩnh, huyện Phú Giáo, tỉnh Thành Phố Hồ Chí Minh.
                 </p>
                 <p>
                     Từ đây, cư dân tại đây có thể dễ dàng di chuyển đến các khu công nghiệp, đặc biệt là khu công nghiệp VSIP 4 đang được quy
@@ -62,14 +62,14 @@ const FCTruongAn = () => {
                         <h2 className={`text-4xl text-[#142237] ${th_leky.className}`}>kết nối</h2>
                         <p className="mt-6">
                             Bên cạnh các tuyến đường huyết mạch hiện hữu như DT741, DT750, HL5,
-                            quốc lộ 13, quốc lộ 14, đường Bình Dương - Đồng Phú..., xung quanh khu
+                            quốc lộ 13, quốc lộ 14, đường Thành Phố Hồ Chí Minh - Đồng Phú..., xung quanh khu
                             đô thị FC Trường An đang được đầu tư thêm nhiều dự án mang tính
                             chiến lược. Nổi bật là đường tạo lực Tân Uyên - Phú Giáo - Đồng Xoài, cao
                             tốc TP.HCM - Thủ Dầu Một - Đồng Xoài, Vành đai 3, Vành đai 4.
                         </p>
                         <p className="mt-4">
                             Đây là những trục giao thông trọng diểm kết nối tất cả các trung tâm đô
-                            thị - công nghiệp ở phía tây Bắc Bình Dương và Bình Phước, hình thành
+                            thị - công nghiệp ở phía tây Bắc Thành Phố Hồ Chí Minh và Bình Phước, hình thành
                             trục thương mại - dịch vụ logistic theo hướng Đông Tây, mở ra hướng
                             phát triển mới cho Phú Giáo.
                         </p>

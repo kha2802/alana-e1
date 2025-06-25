@@ -63,7 +63,7 @@ const Footer = () => {
                             <div className="col-span-12 md:col-span-6 text-left">
                                 <hr className="h-0.5 my-4 mr-10 border-t-0 bg-[#e2ac8a]" />
                                 <h2 className="text-xl text-[#e2ac8a]">ĐỊA CHỈ DỰ ÁN</h2>
-                                <h3 className="text-sm mt-2 text-[#f1d6c4]">ĐT741, Phước Hoà, Phú Giáo, Bình Dương</h3>
+                                <h3 className="text-sm mt-2 text-[#f1d6c4]">ĐT741, Xã Phước Hoà, Thành Phố Hồ Chí Minh</h3>
                             </div>
                             <div className="col-span-12 md:col-span-6 text-left">
                                 <hr className="h-0.5 my-4 mr-10 border-t-0 bg-[#e2ac8a]" />

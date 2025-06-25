@@ -69,7 +69,7 @@ export default function Home() {
               <p className="mt-3 text-fade-up">
                 Với hệ thống tiện ích hiện đại, không gian sống xanh mát và cộng đồng cư dân văn minh, Alana City mang
                 đến cho cả gia đình một cuộc sống tiện nghi, đẳng cấp. Đặc biệt, vị trí đắc địa ngay cạnh các khu công
-                nghiệp &ldquo;xanh&rdquo; lớn nhất tại Bình Dương sẽ mở ra vô vàn cơ hội kinh doanh và việc làm, giúp bạn an tâm kiến
+                nghiệp &ldquo;xanh&rdquo; lớn nhất tại Thành Phố Hồ Chí Minh sẽ mở ra vô vàn cơ hội kinh doanh và việc làm, giúp bạn an tâm kiến
                 tạo cuộc sống thịnh vượng.
               </p>
             </div>
@@ -134,7 +134,7 @@ export default function Home() {
               </p>
               <p className="text-fade-up mt-2">
                 Tọa lạc tại vị trí chiến lược của vùng kinh tế sôi động, Alana City là điểm đến lý tưởng,
-                đáp ứng nhu cầu nhà ở tại Bình Dương. Hệ thống tiện ích hoàn hảo cùng cộng đồng văn minh, thân thiện,
+                đáp ứng nhu cầu nhà ở tại Thành Phố Hồ Chí Minh. Hệ thống tiện ích hoàn hảo cùng cộng đồng văn minh, thân thiện,
                 mang đến cho cư dân những trải nghiệm sống trọn vẹn, tô điểm thêm cho vẻ đẹp của thành phố ánh sáng.
                 Alana City, tự hào là biểu tượng của sự phát triển và thịnh vượng, là khởi đầu mới cho một cuộc sống thăng hoa.
               </p>
@@ -161,7 +161,7 @@ export default function Home() {
                 <ul className="text-left text-sm mt-4 leading-6 pl-8 pr-4 list-disc">
                   <li>QL13, QL14, HL 612</li>
                   <li>Đường tạo lực Bắc Tân Uyên - Phú Giáo - Đồng Phú</li>
-                  <li>Đường cao tốc Bình Dương - Đồng Phú</li>
+                  <li>Đường cao tốc Thành Phố Hồ Chí Minh - Đồng Phú</li>
                   <li>Vành đai 3, đại lộ Mỹ Phước - Tân Vạn - Phú Giáo, và nhiều
                     tuyến đường khác.</li>
                 </ul>
